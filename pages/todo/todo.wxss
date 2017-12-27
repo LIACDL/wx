@@ -1,0 +1,59 @@
+/* pages/home/home.wxss */
+.cover{
+ text-align: center
+}
+.title{
+  font-size: 50rpx;
+ 
+}
+.delete{
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  margin-top: 5px
+}
+.list_item{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+   height: 40px; 
+  margin-top: 2px;
+  text-align: center;
+   line-height: 40px 
+}
+
+.list_item .item_name{
+  flex: 1;
+  overflow: hidden
+}
+.list_item .item_age{
+  flex: 1
+}
+.list_item image{
+  /* flex: 1; */
+  width: 15%;
+  height: 100%;
+
+}
+page{
+  background-color: #eee;
+}
+
+.input_panel{
+  display: flex;
+  background-color: #fff
+}
+.input_panel .input_name{
+  flex: 1;
+  border-right: 1px solid #eee
+}
+.input_panel .input_age{
+  flex: 1
+}
+.input_panel input{
+  height: 100%;
+  font-size: 20px
+}
+.input_panel .btn{
+  flex: 1
+}

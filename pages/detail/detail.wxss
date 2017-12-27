@@ -1,0 +1,21 @@
+/* pages/detail/detail.wxss */
+
+.weui-cells{
+    position: fixed;
+    bottom: 10px;
+    border:0;
+    width: 100%;
+}
+.weui-cell{
+  width: 100%;
+  border: 0
+}
+.weui-cell__bd{
+  width: 100%;
+  display: flex;
+   border:0;
+}
+.weui-btn{
+  padding-bottom: 5px
+}
+

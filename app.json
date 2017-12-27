@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/todo/todo",
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/wexin/wexin"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+ "tabBar":{
+   "boderStyle":"black",
+   "list":[
+      {
+        "pagePath": "pages/wexin/wexin",
+        "text": "微信",
+        "iconPath": "public/icons/pic_a.png",
+        "selectedIconPath": "public/icons/pic_n.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text":"index",
+        "iconPath":"public/icons/pic_a.png",
+        "selectedIconPath":"public/icons/pic_n.png"
+      },
+     {
+      "pagePath":"pages/home/home",
+      "text": "home",
+      "iconPath": "public/icons/pic1_a.png",
+      "selectedIconPath": "public/icons/pic1_n.png"
+     },
+     {
+      "pagePath": "pages/todo/todo",
+      "text": "todo",
+      "iconPath": "public/icons/pic2_a.png",
+      "selectedIconPath": "public/icons/pic2_n.png"
+    }
+   ]
+ }
+}
